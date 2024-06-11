@@ -43,7 +43,7 @@ The Caesar Cipher is a type of substitution cipher where each letter in the plai
 
 1. **Clone the Repository**:
    ```sh
-   git clone <repository-url>
+   git clone <[repository-url]> (https://github.com/mrudula0003/Prodigy_CS_Task1)
    cd <repository-directory>
    ```
 
@@ -58,27 +58,27 @@ The Caesar Cipher is a type of substitution cipher where each letter in the plai
    - Encrypted Text: "Khoor Zruog"
    - Decrypted Text: "Hello World"
 
-## Code Description
+## Code Details🗂️
 
-### Program 1: Basic Caesar Cipher
+### 📄Program 1: Traditional_Caesar_Cipher.py
 This program provides a basic implementation of the Caesar Cipher for uppercase English letters and spaces.
 
-### Program 2: Advanced Caesar Cipher
+### 📄Program 2: Caesar_Cipher.py
 This program provides an enhanced implementation of the Caesar Cipher that supports case-sensitive alphabetic characters, numeric characters, and special characters.
 
-## Thanks
+## Thanks👏
+Thank you for using and contributing to this repository! 
+I sincerely appreciate your interest and hope you find the Caesar Cipher programs helpful for your cryptography learning journey.
 
-Thank you for using and contributing to this repository! We appreciate your interest and hope you find the Caesar Cipher programs helpful for your cryptography learning journey.
+## Contribute🤝
+Welcome all contributions to enhance these programs and expand their capabilities. 
 
-## Contribute
-
-We welcome contributions to enhance these programs and expand their capabilities. To contribute:
-
+To contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix.
 3. Commit your changes and push them to your branch.
 4. Open a pull request describing your changes.
 
-Please ensure your code adheres to the existing style and includes appropriate documentation and tests.
+✅Please ensure your code adheres to the existing style and includes appropriate documentation and tests.
 
-Happy coding!
+🛡️Secure coding!🛡️
