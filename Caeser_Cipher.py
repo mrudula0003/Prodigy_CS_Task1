@@ -1,7 +1,9 @@
 import string
+
+# list of special characters
 sp_char = list(string.punctuation)
 
-
+# encryption of (case-sensitive) alpha-numeric characters as well as special characters
 def encrypt(text, en_key):
     result = ""
     for char in text:
@@ -17,7 +19,7 @@ def encrypt(text, en_key):
                 result += sp_char[dsp]
     return result
 
-
+# decryption of encrypted text which includes alpha-numeric characters as well as special characters
 def decrypt(text, dc_key):
     result = ""
     org_shift = dc_key
@@ -35,10 +37,11 @@ def decrypt(text, dc_key):
                 result += sp_char[dsp]
     return result
 
-
+# Dynamic code: pursuing text and key from user to encrypt & decrypt it respectively
 plaintext = input("Enter the text to encrypt: ")
-key = int(input("Enter the shift value: "))
+key = int(input("Enter the Key: "))
 
+#output code: displaying the original text, key, encrypted text, and decrypted text.
 print("Text :", plaintext, "\t Key :", key)
 cipher = encrypt(plaintext, key)
 print("Cipher (Encrypted):", cipher)
